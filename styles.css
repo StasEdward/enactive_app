@@ -22,7 +22,7 @@ button:hover,a:hover{filter:brightness(1.15)}
 .hero .live-dot{background:var(--ember-500);box-shadow:0 0 12px #ff5f2670}
 h1,h2,h3,p{margin:0}
 h1,h2,h3{font-family:var(--font-display)}
-h1{font-size:clamp(52px,6.5vw,84px);line-height:1.055;letter-spacing:-4.7px;margin:26px 0 24px;font-weight:500}
+h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13px;margin:26px 0 24px;font-weight:500}
 .hero-copy{font-size:15px;line-height:1.9;color:var(--ink-300)}
 .cta{display:flex;justify-content:center;gap:12px;margin-top:29px}
 .button{display:inline-flex;gap:24px;align-items:center;justify-content:center;padding:15px 22px;border-radius:7px;font-size:12px;font-weight:500;transition:transform .2s,background .2s}
@@ -225,7 +225,7 @@ h1{font-size:clamp(52px,6.5vw,84px);line-height:1.055;letter-spacing:-4.7px;marg
   .header .brand img:last-child{width:108px}
   .hero{padding:53px 0 42px}
   .eyebrow{font-size:14px;letter-spacing:1px}
-  h1{font-size:55px;letter-spacing:-3px;margin-top:24px}
+  h1{font-size:36.67px;letter-spacing:-2px;margin-top:24px}
   .hero-copy{font-size:13px;line-height:1.9}
   .desktop-break{display:none}
   .button{padding:13px 16px;gap:12px;font-size:11px}

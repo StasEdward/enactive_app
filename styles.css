@@ -22,7 +22,6 @@ button:hover,a:hover{filter:brightness(1.15)}
 .hero .live-dot{background:var(--ember-500);box-shadow:0 0 12px #ff5f2670}
 h1,h2,h3,p{margin:0}
 h1,h2,h3{font-family:var(--font-display)}
-h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13px;margin:26px 0 24px;font-weight:500}
 .hero-copy{font-size:15px;line-height:1.9;color:var(--ink-300)}
 .cta{display:flex;justify-content:center;gap:12px;margin-top:29px}
 .button{display:inline-flex;gap:24px;align-items:center;justify-content:center;padding:15px 22px;border-radius:7px;font-size:12px;font-weight:500;transition:transform .2s,background .2s}
@@ -105,8 +104,8 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
 .run-metrics>small{color:#91a0b6;font-size:8px;line-height:1.8}
 .preview-footer{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
 .view-switcher{display:flex;padding:4px;border:1px solid #ffffff14;border-radius:8px;background:#111316;gap:3px}
-.view-switcher button{padding:10px 16px;background:none;border:0;border-radius:5px;font-family:var(--font-mono);font-size:9px;color:var(--ink-400)}
-.view-switcher button span{font-family:var(--font-sans);margin-left:8px;color:var(--ink-300);font-size:11px}
+.view-switcher button{padding:10px 16px;background:none;border:0;border-radius:5px;font-family:var(--font-mono);font-size:13.5px;color:var(--ink-400)}
+.view-switcher button span{font-family:var(--font-sans);margin-left:8px;color:var(--ink-300);font-size:16.5px}
 .view-switcher button[aria-selected=true]{background:#282522;color:var(--ember-400)}
 .view-switcher button[aria-selected=true] span{color:var(--ink-50)}
 .motion-button{background:none;border:0;color:var(--ink-300)}
@@ -150,7 +149,7 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
 .more p{font-size:18px;color:var(--ink-300);line-height:1.9;margin:13px 0 22px}
 .text-link{color:var(--ink-200);font-size:16.5px}
 .closing{padding:94px 0 90px;text-align:center;background:radial-gradient(ellipse at 50% 100%,#ff5f2609,transparent 65%)}
-.closing h2{font-size:57px;font-weight:500;letter-spacing:-2.5px;line-height:1.1;margin:22px 0}
+.hero h1,.closing h2{font-size:57px;font-weight:500;letter-spacing:-2.5px;line-height:1.1;margin:22px 0}
 .closing>p{color:var(--ink-300);font-size:13px}
 .footer-inner{border-top:1px solid #ffffff12;padding:27px 0 36px;display:flex;align-items:center;justify-content:space-between}
 .footer-inner>div{display:flex;gap:25px;color:var(--ink-300)}
@@ -175,8 +174,8 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
 .provider-note{text-align:center;padding:30px;color:var(--ink-300)}
 .provider-note>span{font-size:26px;color:var(--ember-400)}
 .provider-note h3{margin-top:10px;font-size:19px;color:var(--ink-100)}
-.provider-note p{font-size:11px;margin:10px}
-.provider-note a{font-size:10px;color:var(--ember-400)}
+.provider-note p{font-size:16.5px;margin:10px}
+.provider-note a{font-size:15px;color:var(--ember-400)}
 .logs-content{height:450px;padding:14px;font:10px var(--font-mono)}
 .log-toolbar{display:flex;align-items:center;gap:18px;font-family:var(--font-sans);font-size:11px}
 .log-select{border:1px solid #2e3440;padding:6px 12px}
@@ -225,7 +224,6 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
   .header .brand img:last-child{width:108px}
   .hero{padding:53px 0 42px}
   .eyebrow{font-size:14px;letter-spacing:1px}
-  h1{font-size:36.67px;letter-spacing:-2px;margin-top:24px}
   .hero-copy{font-size:13px;line-height:1.9}
   .desktop-break{display:none}
   .button{padding:13px 16px;gap:12px;font-size:11px}
@@ -246,8 +244,8 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
   .app-tabs{padding-left:11px}
   .preview-footer{gap:8px}
   .view-switcher{gap:0}
-  .view-switcher button{padding:9px 8px;font-size:14px}
-  .view-switcher button span{font-size:14px;margin-left:4px}
+  .view-switcher button{padding:9px 8px;font-size:21px}
+  .view-switcher button span{font-size:21px;margin-left:4px}
   .motion-button::first-letter{font-size:12px}
   .compatibility{padding:38px 0}
   .compatibility>div{flex-wrap:wrap;gap:20px 27px;font-size:18px}
@@ -270,7 +268,7 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
   .more-icon{margin-bottom:34px}
   .more p{margin-bottom:15px}
   .closing{padding:60px 0}
-  .closing h2{font-size:40px;letter-spacing:-1.6px}
+  .hero h1,.closing h2{font-size:40px;letter-spacing:-1.6px}
   .closing>p{font-size:11px}
   .closing .cta{flex-direction:column;align-items:center}
   .footer-inner>span{display:none}
@@ -287,7 +285,7 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
   .provider-row>span:last-child{display:none}
   .provider-note{padding:22px 3px}
   .provider-note h3{font-size:15px}
-  .provider-note p{font-size:9px;line-height:1.7}
+  .provider-note p{font-size:13.5px;line-height:1.7}
   .logs-content{height:470px;padding:10px}
   .log-toolbar{gap:8px;font-size:9px}
   .log-toolbar>span:last-child{display:none}
@@ -344,4 +342,10 @@ h1{font-size:clamp(34.67px,4.333vw,56px);line-height:1.055;letter-spacing:-3.13p
 .header .brand img:last-child{display:none}
 .source{display:none}
 .footer-inner{padding:18px 0}
+}
+
+.hero h1 .accent{color:var(--ember-500)}
+
+@media(max-width:720px){
+.view-switcher{flex-wrap:wrap;max-width:100%}
 }

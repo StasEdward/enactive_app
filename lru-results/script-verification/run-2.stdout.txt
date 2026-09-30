@@ -1,0 +1,10 @@
+PASS Reject invalid capacities
+PASS Empty cache and default output
+PASS Read refreshes recency
+PASS Update refreshes recency without increasing count
+PASS Missing read preserves recency
+PASS Capacity one and reinsertion
+PASS Reference keys, equality and null values
+PASS Seeded randomized reference comparison
+RESULT: 8/8 passed
+

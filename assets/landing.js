@@ -82,6 +82,22 @@ $('#run-demo').addEventListener('click',()=>{
 });
 $('#motion-toggle').addEventListener('click',()=>setPaused(!paused));
 reducedMotion.addEventListener('change',event=>{if(event.matches){phase=3;setPaused(true);render();}});
+if (!reducedMotion.matches && 'IntersectionObserver' in window) {
+ const revealTargets = document.querySelectorAll('.hero .eyebrow,.hero h1,.hero-copy,.hero .cta,.hero-notes,.preview-heading,.app-window,.preview-footer,.preview-caption,.compatibility>*,.section-intro>*,.feature,.more>*,.closing>*,.site-footer .footer-inner>*');
+ const observer = new IntersectionObserver((entries,activeObserver)=>{
+  entries.forEach(entry=>{
+   if(!entry.isIntersecting)return;
+   entry.target.classList.add('is-visible');
+   activeObserver.unobserve(entry.target);
+  });
+ },{threshold:.12,rootMargin:'0px 0px -32px 0px'});
+ revealTargets.forEach((target,index)=>{
+  target.dataset.reveal=target.classList.contains('app-window')?'fade':'up';
+  target.style.setProperty('--reveal-delay',`${index%4*75}ms`);
+  observer.observe(target);
+ });
+ document.documentElement.classList.add('motion-ready');
+}
 setPaused(paused);render();
 setInterval(()=>{
  if(paused || document.hidden) return;
